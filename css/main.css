@@ -1,0 +1,20 @@
+/* Inserta tu codigo aqui */
+/*header*/
+nav{
+	background-color: black
+}
+
+header .navbar-brand {
+	float: none;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
