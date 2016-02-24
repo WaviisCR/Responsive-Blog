@@ -1,14 +1,60 @@
 /* Inserta tu codigo aqui */
 /*header*/
+
+body{
+	background-color: #2D2735;
+	color: white;
+}
+header .navbar-brand {
+	float: none;
+}
 nav{
 	background-color: black
 }
 
-header .navbar-brand {
-	float: none;
+.resize{
+	width: 50%;
 }
 
+.hero-header{
+	height: auto;
+	width: 100%
+}
+.bckg-header{
+	background-image: url(../image/header-image.jpg);
+	background-size: cover;
+	height: auto;
+	padding: 10%;
+}
+.txt-header{
+	height: auto;
+    background-color: black;
+    text-align: center;
+}
 
+/*post*/
+
+.img-post{
+	width: 100%;
+}
+.text-post{
+	padding: 2%;
+}
+/*blog*/
+iframe {
+	width: 100%;
+    height: 78vh;
+}
+/*about*/
+.social-box{
+	border-radius: 100px;
+	background-color: #2D2735;
+	width: 10%;
+	padding: 2%;
+    font-size: 140%;
+	display: inline-block;
+	margin:1%;
+}
 /* Responsive */
 
 @media screen and (max-width : 920px) {
